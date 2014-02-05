@@ -1,4 +1,4 @@
-WELCOME TO THIS SAMPLE SECURE SITE
+]WELCOME TO THIS SAMPLE SECURE SITE
 
 Requirements:
   - CAS server configured and running (http://www.jasig.org/cas)
@@ -21,11 +21,11 @@ Type in the console:
 
 The webserver will be started and application deployed, everything should be up and running on port 9090. The port can be configured in build.gradle file.
 
- >:clean
+ > :clean
 
-  :compileJava 
+ > :compileJava 
 
-  :jettyRun 
+ > :jettyRun 
 
  > Building 80% > :jettyRun > Running at http://localhost:9090/secure-site
 
