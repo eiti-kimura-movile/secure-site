@@ -1,0 +1,16 @@
+<configuration debug="true" scan="true">
+	<jmxConfigurator />
+
+	<property name="DEFAULT_PATTERN"
+		value="%highlight([%-5level]) %magenta([%class{30}->%method]) | %msg%n" />
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${DEFAULT_PATTERN}</pattern>
+		</encoder>
+	</appender>
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
