@@ -1,4 +1,4 @@
-]WELCOME TO THIS SAMPLE SECURE SITE
+*** WELCOME TO THIS SAMPLE SECURE SITE
 
 Requirements:
   - CAS server configured and running (http://www.jasig.org/cas)
